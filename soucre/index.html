@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="indexCss.css" />
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#intro').click(function () {
+				window.location = "https://www.youtube.com/watch?v=I8W4LyIXINE";
+			});
+			$('#btnInfo').click(function () {
+				$("#tableContent").css("display","block");
+			})
+			$(".Content").hover(function () {
+				$("#Info").hide(1000);
+			});
+		});
+
+	</script>
+</head>
+<body>
+	<div class="container">
+		<header class="navbark">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="#">Cactus VN</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#1">Home<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#2">abouts <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#3">Introvideo <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#4">Infomation <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#5">Product <span class="sr-only">(current)</span></a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<div class="row">
+			<div class="row col-xs-12 col-md-12 BGheader" id="1">
+				<div class="col-xs-6 col-md-6 ContentSlider">
+					<span class="row fontText">Life is simple. Listen to the universet</span>
+					<h1 class="row MarginText fontText ColorText">Best quality</h1>
+					<h1 class="row MarginText fontText">Cactus</h1>
+					<button class="btn btnFindOut fontText">Find out</button>
+				</div>
+				<div class="col-md-3">
+					<img class="ImageXR" src="Image/XRpro.png" width="200" height="250" />
+				</div>
+				<div class="col-md-3">
+					<button class="btn btn-outline-light text-dark btnMenu"><img src="Image/buttonMenu.png" width="26" height="20"></button>
+				</div>
+			</div>
+		</div>
+		<div class="row col-xs-12 col-md-12 abouts" id="2">
+			<div class="col-xs-12 col-md-6 Cot1">
+				<img class="HinhAnh" width="80" height="180" src="Image/XRpro1.jpg">
+			</div>
+			<div class="col-xs-12 col-md-6 Cot2">
+				<div class="row">
+					<h1 class="Idheader">About</h1>
+					<h1>Cactus</h1>
+				</div>
+				<p class="row">Cacti are usually berry plant<br />  sdicotyledonous and flowering. Cactaceta family have<br /> 25 to 220 genera. Depending on the source, including<br />  from 1,500 to 1,800 species. The cactus Known from <br />  the Americas, most are in the desert. There are also<br />   living trees In the tropics, they grow on branches,<br /> Because it rains fast, so often be dry. Cactus with <br /> thorns and stems for water storage</p>
+				<span>Dev Neo</span>
+				<h4>cactus dragon earth</h4>
+			</div>
+		</div>
+		<div class="row col-md-12 IntroVideo" id="3">
+			<div class="col-md-9"></div>
+			<div class="row col-md-2 btnPlay">
+				<butto class="btn btnIconPlay" id = "intro"><i class="far fa-play-circle"></i></button>
+					<span>Intro Video</span>
+				</div>
+			</div>
+			<div class="col-md-12 Info">
+				<div class="col-md-6 abouts Cot2">
+					<div class="row">
+						<h1 class="Idheader">Infomation</h1>
+						<h1>Cactus</h1>
+					</div>
+					<p class="row">Cacti are usually berry plant sdicotyledonous and flowering. Cactaceta family have 25 to 220 genera. Depending on the source, including from 1,500 to 1,800 species. The cactus Known from the Americas, most are in the desert. There are also living trees In the tropics, they grow on branches, Because it rains fast, so often be dry. Cactus with thorns and stems for water storage</p>
+				</div>
+			</div>
+			<div class="row col-md-12 InfoImage">
+				<div class="col-md-5 btnLeft">
+					<div class="row">
+						<button class="btn .btn-danger btnChild btnMove" id="btnInfo">btn 1</button>
+					</div>
+					<div class="row">
+						<button class="btn .btn-danger btnChild" id="btnInfo">btn 2</button>
+					</div>
+					<div class="row">
+						<button class="btn .btn-danger btnChild btnMove" id="btnInfo">btn 3</button>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<img class="ImageXRInfo" width="120" height="230" src="Image/XRpro1.jpg" />
+				</div>
+				<div class="col-md-2 btnRight">
+					<div class="row">
+						<button class="btn .btn-danger btnChild" id="btnInfo">btn 1</button>
+					</div>
+					<div class="row">
+						<button class="btn .btn-danger btnChild btnMove" id="btnInfo">btn 2</button>
+					</div>
+					<div class="row">
+						<button class="btn .btn-danger btnChild" id="btnInfo">btn 3</button>
+					</div>
+				</div>
+				<div class="col-md-2 tableInfo">
+					<p id="tableContent">Cacti are usually berry plant sdicotyledonous and flowering. Cactaceta family have 25 to 220 genera. Depending on the source, including from 1,500 to 1,800 species. The cactus Known from the Americas, most are in the desert. There are also living trees In the tropics, they grow on branches, Because it rains fast, so often be dry. Cactus with thorns and stems for water storage</p>
+				</div>
+			</div>
+			<div class="row product " id="5">
+				<div class="col-md-4">
+					<img class="row Tree" width="250" height="320" src="Image/product.jpg" />
+					<div class="Content">
+						<label class="row Monney">$23</label>
+						<div class="row TextChild">
+							<label class="ColorTextChild">Ceatea</label>
+							<label>Shape One</label>
+						</div>
+						<ul id="Info">
+							<li class="TextChildLi">Small leaf</li>
+							<li class="TextChildLi">Small leaf</li>
+							<li class="TextChildLi">Small leaf</li>
+						</ul>
+					</div>
+
+				</div>
+				<div class="col-md-4">
+					<img class="row Tree" width="250" height="320" src="Image/product.jpg" />
+					<div class="Content">
+						<label class="row Monney">$23</label>
+						<div class="row TextChild">
+							<label class="ColorTextChild">Ceatea</label>
+							<label>Shape One</label>
+						</div>
+						<ul id="Info">
+							<li class="TextChildLi">Small leaf</li>
+							<li class="TextChildLi">Small leaf</li>
+							<li class="TextChildLi">Small leaf</li>
+						</ul>
+					</div>
+
+				</div>
+				<div class="col-md-4">
+					<img class="row Tree" width="250" height="320" src="Image/product.jpg" />
+					<div class="Content">
+						<label class="row Monney">$23</label>
+						<div class="row TextChild">
+							<label class="ColorTextChild">Ceatea</label>
+							<label>Shape One</label>
+						</div>
+						<ul id="Info">
+							<li class="TextChildLi">Small leaf</li>
+							<li class="TextChildLi">Small leaf</li>
+							<li class="TextChildLi">Small leaf</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<footer class="row col-md-12 CopyRight">
+				<label class="col-md-3"><a href="">Copyright DevNeo</a></label>
+				<label class="col-md-7"></label>
+				<label class="col-md-1"><a href="">Hold</a></label>
+				<label class="col-md-1"><a href="">NNN private</a></label>
+			</footer>
+		</div>
+	</body>
+	</html>

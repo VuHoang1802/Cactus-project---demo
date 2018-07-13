@@ -1,0 +1,43 @@
+*{padding: 0px; margin: 0px; font-size: 10px; font-family: Helvetica Neue;}
+header{position: fixed; z-index: 1;}
+.navbark .hide{transition: translateY(-100%);}
+.navbar-brand{font-size: 2em; font-weight: bold; text-transform: uppercase;}
+.collapse .nav-link {font-size: 1.5em;}
+.collapse .navbar-nav .nav-item:hover .nav-link{color: #699F27;}
+.BGheader{height: 450px; background: url(Image/BGheader.jpg);}
+.ContentSlider {padding:180px 0px;padding-left: 150px;}
+.MarginText{font-size: 3em; text-transform: uppercase; font-weight: bold;}
+.ColorText{color: #699F27; }
+.fontText{font-family: Helvetica Neue;}
+.btnFindOut{background-color: #555354; border-radius:20px; color: #fff; font-size: 1.5em; padding: 10px;}
+.ImageXR{margin-top: 150px;}
+.btnMenu{float: right; margin-top: 30px;}
+.abouts{height: 320px; background-color: #fff; font-family: Helvetica Neue;}
+.abouts .HinhAnh{margin: 0px 300px}
+.abouts .Cot1{margin-top: 80px;}
+.abouts .Cot2{font-weight: 21px; margin-top: 50px;}
+.abouts .Idheader{color:#699F27; }
+.abouts p {font-weight: 12px;}
+.abouts span {font-family: UTM Beautiful Caps;}
+.abouts h4 {font-family: UTM Bebas;}
+.IntroVideo {height: 416px; background: url(Image/BGintrovideo.jpg) no-repeat;}
+.IntroVideo .btnPlay{margin-top: 350px;}
+.btnIconPlay {width: 50px; height: 50px;}
+.btnIconPlay i{font-size: 4em; color: #fff;}
+.IntroVideo .btnPlay span{ text-transform: uppercase; font-weight: bold; color: #fff; font-size: 2em;}
+.Info {height: 150px; background-color: #fff;}
+.Info .Cot2{margin-top: 30px;}
+.InfoImage{}
+.InfoImage .btnLeft .btnChild{margin-left: 300px; margin-top: 50px;}
+.InfoImage .btnLeft .btnMove{margin-left: 350px}
+.InfoImage .btnRight .btnChild{margin-top: 50px;}
+.InfoImage .btnRight .btnMove {margin-left: 50px}
+.tableInfo p{background-color: #000000; padding: 10px; width: 200px; height: 300px;color: #fff; display: none;}
+.product {height: 500px; background-color: #fff;}
+.product .Tree {margin-left: 50px;}
+.product .Content{margin-left: 150px;}
+.product .Monney{font-size: 28px;}
+.product .TextChild label{font-size: 20px;}
+.product .ColorTextChild{color: #699F27;}
+.product ul li {font-size: 11px;}
+.CopyRight a{color:#699F27 }
